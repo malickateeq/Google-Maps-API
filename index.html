@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="custom.js"></script>
+    </head>
+<body>
+
+<h1> Google Map</h1>
+
+From: <input type="text" id="from" disabled>
+To: <input type="text" id="to">
+Total Diatance: <h3 id="total"></h3>
+<input type="button" value="Submit" id="showRoute" onclick="calcRoute()"> 
+
+<div id="map"></div>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoz4QoGE6E0uoOox3eNzL4HfLYs4k56_Q&callback=myMap&libraries=places"></script>
+</body>
+</html>
